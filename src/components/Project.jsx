@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
 import { projects } from '../constants';
+import { Tilt } from 'react-tilt';
+import { github } from '../assets';
 
 const ProjectCard = ({
   index,
