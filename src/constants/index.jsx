@@ -4,6 +4,7 @@ import {
   backend,
   bootstrap,
   canva,
+  coffee,
   creator,
   css,
   dcrepes,
@@ -22,8 +23,10 @@ import {
   reactjs,
   redux,
   scss,
+  sociall,
   tailwind,
   threejs,
+  trv,
   typescript,
   web,
   wordpress,
@@ -200,4 +203,79 @@ const technologies = [
     icon: canva,
   },
 ];
-export { navLinks, services, experiences, technologies };
+
+const projects = [
+  {
+    name: 'Soci-ALL.',
+    description:
+      'This Sociall website was created with the rest API from dibimbing.id with the theme Photosharing aimed at photo interaction from all Sociall users and unlimited exploration.',
+    tags: [
+      {
+        name: 'react',
+        color: 'text-amber-100',
+      },
+      {
+        name: 'restapi',
+        color: 'text-amber-600',
+      },
+      {
+        name: 'antdesign',
+        color: 'text-blue-600',
+      },
+    ],
+    image: sociall,
+    source_code_link: 'https://github.com/daffatabiano/React_Project',
+  },
+  {
+    name: 'T - Ravel - V',
+    description:
+      'To Ravel Find Freedom a travel  websiter designed to makes it easier on traveling. The website also offering controlling features, for the Admin role. Provide CRUD Service for admin.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'text-amber-100',
+      },
+      {
+        name: 'restapi',
+        color: 'text-amber-600',
+      },
+      {
+        name: 'sass',
+        color: 'text-rose-600',
+      },
+      {
+        name: 'tailwindcss',
+        color: 'text-blue-600',
+      },
+    ],
+    image: trv,
+    source_code_link: 'https://github.com/daffatabiano/trv',
+  },
+  {
+    name: "Coffee Terio's and Toast",
+    description:
+      'Easy and fast online coffee ordering application. Order a variety of coffee choices, from classic espresso to our special menu, straight from your phone. Choose the appropriate payment method .',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'text-amber-100',
+      },
+      {
+        name: 'firebase',
+        color: 'text-amber-600',
+      },
+      {
+        name: 'sass',
+        color: 'text-rose-600',
+      },
+      {
+        name: 'antdesign',
+        color: 'text-blue-600',
+      },
+    ],
+    image: coffee,
+    source_code_link: 'https://github.com/daffatabiano/NextTeriosCoffee',
+  },
+];
+
+export { navLinks, services, experiences, technologies, projects };
