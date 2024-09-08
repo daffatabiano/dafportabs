@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unknown-property */
-import { Decal, Float, useTexture } from "@react-three/drei";
+import { Decal, Float, OrbitControls, useTexture } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
 
 const Ball = (prop) => {
     const [decal] = useTexture([prop.imgUrl]);
@@ -25,5 +27,24 @@ const Ball = (prop) => {
           />
         </mesh>
       </Float>
+    );
+  };
+
+  const BallCanvas = (prop) => {
+    const { icon } =prop
+
+    return (
+      <Canvas
+        frameloop='demand'
+        dpr={[1, 2]}
+        gl={{ preserveDrawingBuffer: true }}
+      >
+        <Suspense fallback={<CanvasLoader />}>
+          <OrbitControls enableZoom={false} />
+          <Ball imgUrl={icon} />
+        </Suspense>
+  
+        <Preload all />
+      </Canvas>
     );
   };
