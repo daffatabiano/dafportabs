@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import { Hero } from "./components"
 import About from "./components/About"
 import Experience from "./components/Experience"
+import Tech from "./components/Tech"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         </div>
         <About/>
         <Experience/>
+        <Tech/>
    </div>
    </BrowserRouter>
   )

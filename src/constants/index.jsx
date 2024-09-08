@@ -1,4 +1,4 @@
-import { backend, creator, dcrepes, dibimbing, mobile, nusa, pervite, web } from "../assets";
+import { antdesign, axios, backend, bootstrap, canva, creator, css, dcrepes, dibimbing, figma, firebase, git, gitlab, html, javascript, mobile, nextjs, nodejs, nusa, pervite, reactjs, redux, scss, tailwind, threejs, typescript, web, wordpress } from "../assets";
 
 const navLinks = [
     {
@@ -90,4 +90,87 @@ const experiences = [
   },
 ];
 
-  export { navLinks, services, experiences };
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "wordpress",
+    icon: wordpress,
+  },
+  {
+    name: "antdesign",
+    icon: antdesign,
+  },
+  {
+    name: "scss",
+    icon: scss,
+  },
+  {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "gitlab",
+    icon: gitlab,
+  },
+  {
+    name: "axios",
+    icon: axios,
+  },
+  {
+    name: "bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "canva",
+    icon: canva,
+  },
+
+];
+  export { navLinks, services, experiences, technologies };
