@@ -23,7 +23,7 @@ const Tech = () => {
             );
           })}
         </div>
-        <div className="flex flex-row-reverse gap-12 animate-sliderReverse mt-10">
+        <div className="flex flex-row-reverse gap-12 animate-sliderReverse mt-10 ">
           {technologies.map((tech) => {
             for (let i = 0; i > tech.length; i++) {
               const j = Math.floor(Math.random() * (i + 1));
