@@ -2,6 +2,7 @@
 import { Decal, Float, OrbitControls, Preload, useTexture } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
+import CanvasLoader from "../Loader";
 
 const Ball = (prop) => {
     const [decal] = useTexture([prop.imgUrl]);
@@ -39,7 +40,7 @@ const Ball = (prop) => {
         dpr={[1, 2]}
         gl={{ preserveDrawingBuffer: true }}
       >
-        <Suspense>
+        <Suspense fallback={<CanvasLoader/>}>
           <OrbitControls enableZoom={false} />
           <Ball imgUrl={icon} />
         </Suspense>
