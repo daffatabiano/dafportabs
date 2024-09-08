@@ -2,6 +2,43 @@ import { StarWrapper } from "../hoc"
 import { fadeIn, textVariant } from "../utils/motion"
 import { motion } from "framer-motion"
 import { styles } from "../styles"
+import { Tilt } from "react-tilt";
+import { services } from "../constants";
+
+const SkillCard = (prop) => {
+    const { index, title, icon } = prop;
+    
+    
+    return (
+    <Tilt className='xs:w-[250px] w-full'>
+      <motion.div
+        variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+        className='w-full bg-gradient-to-b from-amber-800 to-amber-400 p-[1px] rounded-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]'
+      >
+        <div
+          // eslint-disable-next-line react/no-unknown-property
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450,
+          }}
+          className='from-amber-600 via-yellow-300 to-amber-800 bg-gradient-to-l rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        >
+          <img
+            src={icon}
+            alt='web-development'
+            className='w-16 h-16 object-contain'
+          />
+  
+          <h3 className='from-stone-600 via-stone-100 to-stone-800 bg-gradient-to-r bg-clip-text text-transparent text-[20px] font-bold text-center'>
+            {title}
+          </h3>
+        </div>
+      </motion.div>
+    </Tilt>
+    )
+
+}
 
 const About = () => {
     return (
@@ -23,9 +60,10 @@ const About = () => {
         </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-10">
-
+        {services.map((service, index) => (
+          <SkillCard key={service.title} index={index} {...service} />
+        ))}
         </div>
-  
       </>
     )
     
