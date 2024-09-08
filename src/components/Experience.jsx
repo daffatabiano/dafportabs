@@ -14,7 +14,11 @@ const Experience = () => {
             Work Experience.
           </h2>
         </motion.div>
-  
+
+        
+        <div className='mt-20 flex flex-col bg-yellow-600 rounded-md'>
+          
+        </div>
       
       </>
     )
