@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import { Hero } from "./components"
 import About from "./components/About"
+import Experience from "./components/Experience"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
           <Hero />
         </div>
         <About/>
+        <Experience/>
    </div>
    </BrowserRouter>
   )
