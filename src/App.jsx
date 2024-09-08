@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Tech from './components/Tech';
 import Project from './components/Project';
 import Certificate from './components/Certificate';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
         <Tech />
         <Project />
         <Certificate />
-        <div className="relative z-0"></div>
+        <div className="relative z-0">
+          <Contact />
+        </div>
       </div>
     </BrowserRouter>
   );
