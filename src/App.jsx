@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import { Hero } from "./components"
+import About from "./components/About"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
           <Navbar />
           <Hero />
         </div>
+        <About/>
    </div>
    </BrowserRouter>
   )
