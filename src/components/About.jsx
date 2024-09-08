@@ -1,7 +1,7 @@
 import { StarWrapper } from "../hoc"
 import { fadeIn, textVariant } from "../utils/motion"
 import { motion } from "framer-motion"
-import styles from "../styles"
+import { styles } from "../styles"
 
 const About = () => {
     return (
