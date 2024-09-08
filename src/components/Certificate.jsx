@@ -12,6 +12,12 @@ const Certificate = () => {
           <h2 className={styles.sectionHeadText}>Certificate.</h2>
         </motion.div>
       </div>
+
+      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+        {certs.map((cert, index) => (
+          <FeedbackCard key={cert.name} index={index} {...testimonial} />
+        ))}
+      </div>
     </div>
   );
 };
