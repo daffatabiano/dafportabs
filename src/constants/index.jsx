@@ -278,4 +278,29 @@ const projects = [
   },
 ];
 
-export { navLinks, services, experiences, technologies, projects };
+const certs = [
+  {
+    cert: cert_dibimbing,
+    name: 'Frontend Developer',
+    designation: 'May 2024',
+    company: 'Dibimbing.ID',
+    image: tesla,
+  },
+  {
+    cert: cert_nusatech,
+    name: 'Frontend Developer',
+    designation: 'August 2024',
+    company: 'Nusantech',
+    image: meta,
+  },
+  {
+    cert: cert_freecodecamp,
+    name: 'Javascript Advanced',
+    designation: 'February 2024',
+    company: 'FCC',
+    image:
+      'https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg',
+  },
+];
+
+export { navLinks, services, experiences, technologies, projects, certs };
