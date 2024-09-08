@@ -1,5 +1,8 @@
-import { StarWrapper } from '../hoc';
+import React, { useRef, useState } from 'react';
+import { motion } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 
+import { StarWrapper } from '../hoc';
 import { styles } from '../styles';
 import { slideIn } from '../utils/motion';
 
