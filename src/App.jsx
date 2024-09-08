@@ -5,6 +5,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Tech from './components/Tech';
 import Project from './components/Project';
+import Certificate from './components/Certificate';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Experience />
         <Tech />
         <Project />
+        <Certificate />
       </div>
     </BrowserRouter>
   );
