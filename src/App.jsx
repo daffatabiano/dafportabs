@@ -20,6 +20,7 @@ function App() {
         <Tech />
         <Project />
         <Certificate />
+        <div className="relative z-0"></div>
       </div>
     </BrowserRouter>
   );
