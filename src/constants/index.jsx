@@ -1,4 +1,4 @@
-import { backend, creator, mobile, web } from "../assets";
+import { backend, creator, dcrepes, dibimbing, mobile, nusa, pervite, web } from "../assets";
 
 const navLinks = [
     {
@@ -34,4 +34,60 @@ const navLinks = [
     },
   ];
 
-  export { navLinks, services };
+  
+const experiences = [
+  {
+    title: "Crew Staff",
+    company_name: "Jaddi+",
+    icon: dcrepes,
+    iconBg: "#fbbf24",
+    date: "Feb 2021 - Nov 2023",
+    points: [
+      "Took orders,prepared meals, and collected orders. Assisted other team members to achieve goals on more than 200 million/month.",
+      "Trained new team members on procedures, customer service and sales techniques",
+      "Operator cash register to ring up final bill and process various forms of payment.",
+      " Work extra shift during busy periods and cover to reports daily sales for make a growth more value",
+    ],
+  },
+  {
+    title: "Student Developer",
+    company_name: "Dibimbing.ID",
+    icon: dibimbing,
+    iconBg: "#fbbf24",
+    date: "Oct 2023 - May 2024",
+    points: [
+      "Exploring and Learning about HTML, CSS, and JavaScript from basic to advanced.",
+      "Mastering modern technologies frameworks and libraries such as React, Redux, and Tailwind.",
+      "Implementing responsive design and functionalities for web applications.",
+      "Building and maintaining web from scratch using React and other related technologies.",
+    ],
+  },
+  {
+    title: "Wordpress Developer",
+    company_name: "Pervite.com",
+    icon: pervite,
+    iconBg: "#fbbf24",
+    date: "June 2024 - Present (freelancer)",
+    points: [
+      "Plan, design and develop new WordPress themes specifically for wedding invitation websites according to client necessities.",
+      "Implement the features needed for a wedding invitation website, such as RSVP forms, photo galleries, location maps, and integration with payment platforms.",
+      "Work closely with the design, development and marketing teams to ensure the project runs according to plan.",
+      "Ensure the themes developed are compatible with various browsers and devices.",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Nusantech",
+    icon: nusa,
+    iconBg: "#fbbf24",
+    date: "May 2024 - Aug 2024",
+    points: [
+      "Develop and Maintain the user interface(UI) for the NusaLMS application.",
+      "Improving user experience (UX) with responsive and interactive design.",
+      "Collaborate with the Backend Team to ensure integration runs smoothly between the Frontend and Backend.",
+      "Debugging and Testing to ensure the app goes well/ Daily reporting and koordinate with team above what im going everyday.",
+    ],
+  },
+];
+
+  export { navLinks, services, experiences };
