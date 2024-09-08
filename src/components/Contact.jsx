@@ -1,5 +1,8 @@
 import { StarWrapper } from '../hoc';
 
+import { styles } from '../styles';
+import { slideIn } from '../utils/motion';
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -122,7 +125,7 @@ const Contact = () => {
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
-        <EarthCanvas />
+        {/* <EarthCanvas /> */}
       </motion.div>
     </div>
   );
