@@ -50,7 +50,8 @@ const Certificate = () => {
         </motion.div>
       </div>
 
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+      <div
+        className={`-mt-20 pb-14 ${styles.paddingX} justify-center flex flex-wrap gap-7`}>
         {certs.map((cert, index) => (
           <CertCards key={cert.name} index={index} {...cert} />
         ))}
