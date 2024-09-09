@@ -37,6 +37,10 @@
   background: linear-gradient(to right, #434343, #000000);
 }
 
+.custom-progress-bar {
+  background: linear-gradient(to right, goldenrod, yellow, goldenrod);
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

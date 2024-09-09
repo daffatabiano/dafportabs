@@ -5,6 +5,9 @@ import emailjs from '@emailjs/browser';
 import { StarWrapper } from '../hoc';
 import { styles } from '../styles';
 import { slideIn } from '../utils/motion';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { checklist } from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
@@ -47,7 +50,20 @@ const Contact = () => {
         (res) => {
           console.log(res);
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          toast.success(
+            'Thank you for your interest, i send you an auto-reply via email.',
+            {
+              position: 'bottom-right',
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: 'light',
+              zIndex: '999',
+            }
+          );
 
           setForm({
             name: '',
@@ -67,6 +83,11 @@ const Contact = () => {
   return (
     <div
       className={`xl:mt-12 lg:items-center flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
+      <ToastContainer
+        style={{ zIndex: '999' }}
+        progressClassName={'custom-progress-bar'}
+        icon={checklist}
+      />
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] w-full lg:w-1/2 bg-zinc-100 p-8 rounded-2xl">
@@ -127,7 +148,6 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="xl:flex-1 xl:h-auto flex justify-center items-center md:h-[550px] h-[350px]">
