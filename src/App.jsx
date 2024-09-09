@@ -7,6 +7,7 @@ import Tech from './components/Tech';
 import Project from './components/Project';
 import Certificate from './components/Certificate';
 import Contact from './components/Contact';
+import MaskBackground from './components/particles/MaskBackground';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <div className="relative z-0">
           <Contact />
         </div>
+        <MaskBackground />
       </div>
     </BrowserRouter>
   );
