@@ -19,7 +19,7 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
-import nextjs from './tech/nextjs.png';
+import nextjs from './tech/nextjs.svg';
 import wordpress from './tech/wordpress.png';
 import antdesign from './tech/antdesign.png';
 import scss from './tech/scss.png';
@@ -27,7 +27,12 @@ import firebase from './tech/firebase.png';
 import gitlab from './tech/gitlab.png';
 import axios from './tech/axios.png';
 import canva from './tech/canva.png';
-import bootstrap from './tech/bootstrap.png';
+import bootstrap from './tech/bootstrap.svg';
+import office from './tech/office.svg';
+import toastify from './tech/toastify.png';
+import tsParticles from './tech/tsParticles.png';
+import vscode from './tech/vscode.svg';
+import spark from './tech/spark.png';
 
 import nusa from './company/nusa.png';
 import pervite from './company/pervite.png';
@@ -63,6 +68,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  office,
+  toastify,
+  tsParticles,
+  vscode,
+  spark,
   nusa,
   pervite,
   dcrepes,

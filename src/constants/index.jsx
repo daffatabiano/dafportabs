@@ -15,6 +15,7 @@ import {
   figma,
   firebase,
   git,
+  github,
   gitlab,
   html,
   javascript,
@@ -22,15 +23,20 @@ import {
   nextjs,
   nodejs,
   nusa,
+  office,
   pervite,
   reactjs,
   redux,
   scss,
   sociall,
+  spark,
   tailwind,
   threejs,
+  toastify,
   trv,
+  tsParticles,
   typescript,
+  vscode,
   web,
   wordpress,
 } from '../assets';
@@ -204,6 +210,30 @@ const technologies = [
   {
     name: 'canva',
     icon: canva,
+  },
+  {
+    name: 'tsParticles',
+    icon: tsParticles,
+  },
+  {
+    name: 'office365',
+    icon: office,
+  },
+  {
+    name: 'toastify',
+    icon: toastify,
+  },
+  {
+    name: 'github',
+    icon: github,
+  },
+  {
+    name: 'vscode',
+    icon: vscode,
+  },
+  {
+    name: 'spark-ar',
+    icon: spark,
   },
 ];
 
