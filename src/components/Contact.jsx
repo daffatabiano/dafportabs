@@ -85,6 +85,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               disabled={loading}
+              required
               placeholder="Please enter your name"
               className="bg-zinc-200 py-4 px-6 placeholder:text-secondary text-amber-400 rounded-lg outline-none border-none font-medium"
             />
@@ -97,6 +98,7 @@ const Contact = () => {
               value={form.email}
               disabled={loading}
               onChange={handleChange}
+              required
               placeholder="What's your web address?"
               className="bg-zinc-200 py-4 px-6 placeholder:text-secondary text-amber-400 rounded-lg outline-none border-none font-medium"
             />
@@ -111,6 +113,7 @@ const Contact = () => {
               value={form.message}
               disabled={loading}
               onChange={handleChange}
+              required
               placeholder="What you want to say?"
               className="bg-zinc-200 py-4 px-6 placeholder:text-secondary text-amber-400 rounded-lg outline-none border-none font-medium"
             />
