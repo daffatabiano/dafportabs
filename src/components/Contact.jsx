@@ -5,6 +5,8 @@ import emailjs from '@emailjs/browser';
 import { StarWrapper } from '../hoc';
 import { styles } from '../styles';
 import { slideIn } from '../utils/motion';
+import Spiderparticles from './particles/spiderman';
+import Spiderman from './particles/spiderman';
 
 const Contact = () => {
   const formRef = useRef();
@@ -127,7 +129,9 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"></motion.div>
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
+        <Spiderman />
+      </motion.div>
     </div>
   );
 };
