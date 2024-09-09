@@ -15,7 +15,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} flex flex-col`}>
             Hi, I&apos;m{' '}
-            <span className="from-amber-600 via-yellow-400 to-yellow-800 bg-gradient-to-r bg-clip-text text-transparent relative font-mono uppercase tracking-widest lg:text-[90px] w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-amber-900 text-[45px]">
+            <span className="from-amber-600 via-yellow-400 to-yellow-800 bg-gradient-to-r bg-clip-text text-transparent relative font-mono sm:text-[55px] xs:text-[45px] uppercase tracking-widest lg:text-[90px] w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-amber-900 text-[25px]">
               Daffa Tabiano
             </span>
           </h1>
