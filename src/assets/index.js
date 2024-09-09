@@ -22,17 +22,18 @@ import threejs from './tech/threejs.svg';
 import nextjs from './tech/nextjs.svg';
 import wordpress from './tech/wordpress.png';
 import antdesign from './tech/antdesign.png';
-import scss from './tech/scss.png';
+import scss from './tech/sass.svg';
 import firebase from './tech/firebase.png';
 import gitlab from './tech/gitlab.png';
 import axios from './tech/axios.png';
 import canva from './tech/canva.png';
 import bootstrap from './tech/bootstrap.svg';
 import office from './tech/office.svg';
-import toastify from './tech/toastify.png';
+import toastify from './tech/materialui.svg';
 import tsParticles from './tech/tsParticles.png';
 import vscode from './tech/vscode.svg';
 import spark from './tech/spark.png';
+import github2 from './tech/github2.svg';
 
 import nusa from './company/nusa.png';
 import pervite from './company/pervite.png';
@@ -60,6 +61,7 @@ export {
   css,
   figma,
   git,
+  github2,
   html,
   javascript,
   nodejs,

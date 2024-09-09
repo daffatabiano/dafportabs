@@ -4,17 +4,27 @@ import { StarWrapper } from '../hoc';
 
 const Tech = () => {
   const [shuffledTechnologies, setShuffledTechnologies] = useState([]);
+  const [shuffledTechnologies2, setShuffledTechnologies2] = useState([]);
 
   useEffect(() => {
-    const shuffleArray = (array, multiplier) => {
-      for (let i = multiplier - 1; i > 0; i--) {
+    const shuffleArray = (array) => {
+      for (let i = 0; i < technologies.length; i++) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
       }
       return array;
     };
+    const shuffleArray2 = (array) => {
+      for (let i = technologies.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[j], array[i]] = [array[i], array[j]];
+      }
+      return array;
+    };
 
-    setShuffledTechnologies(shuffleArray([...technologies], 15));
+    setShuffledTechnologies2(shuffleArray2([...technologies]));
+
+    setShuffledTechnologies(shuffleArray([...technologies]));
   }, [technologies]);
 
   console.log(shuffledTechnologies);
@@ -36,15 +46,7 @@ const Tech = () => {
           })}
         </div>
         <div className="flex flex-row-reverse lg:gap-12 gap-6 lg:mt-10 animate-sliderReverse mt-5 ">
-          {technologies.map((tech) => {
-            for (let i = 0; i > 20; i++) {
-              const j = Math.floor(Math.random() * (i + 1));
-              [technologies[i], technologies[j]] = [
-                technologies[j],
-                technologies[i],
-              ];
-            }
-
+          {shuffledTechnologies2.map((tech) => {
             return (
               <img
                 key={tech.name}

@@ -8,8 +8,8 @@ export const theme = {
     animation: {
       typewriter: 'typewriter 2s steps(11) forwards',
       caret: 'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s',
-      slider: 'slider 30s infinite linear',
-      sliderReverse: 'sliderReverse 30s infinite linear',
+      slider: 'slider 40s infinite linear',
+      sliderReverse: 'sliderReverse 60s infinite linear',
     },
     keyframes: {
       slider: {
@@ -17,7 +17,7 @@ export const theme = {
           transform: 'translateX(0)',
         },
         to: {
-          transform: 'translateX(-100%)',
+          transform: 'translateX(-300%)',
         },
       },
       sliderReverse: {
@@ -25,7 +25,7 @@ export const theme = {
           transform: 'translateX(0%)',
         },
         to: {
-          transform: 'translateX(100%)',
+          transform: 'translateX(300%)',
         },
       },
       typewriter: {

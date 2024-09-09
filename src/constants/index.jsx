@@ -15,7 +15,7 @@ import {
   figma,
   firebase,
   git,
-  github,
+  github2,
   gitlab,
   html,
   javascript,
@@ -225,7 +225,7 @@ const technologies = [
   },
   {
     name: 'github',
-    icon: github,
+    icon: github2,
   },
   {
     name: 'vscode',
