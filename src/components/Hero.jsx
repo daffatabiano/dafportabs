@@ -19,7 +19,7 @@ const Hero = () => {
               Daffa Tabiano
             </span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-stone-900`}>
+          <p className={`${styles.heroSubText} mt-2 text-primary`}>
             Design and Develop website specialist,{' '}
             <br className="sm:block hidden" />
             with User Experiences and Interfaces
