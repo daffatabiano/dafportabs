@@ -10,6 +10,9 @@ export const theme = {
       caret: 'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s',
       slider: 'slider 40s infinite linear',
       sliderReverse: 'sliderReverse 60s infinite linear',
+      rotateOne: 'rotateOne 1s infinite linear',
+      rotateTwo: 'rotateTwo 1s infinite linear',
+      rotateThree: 'rotateThree 1s infinite linear',
     },
     keyframes: {
       slider: {
@@ -48,6 +51,30 @@ export const theme = {
         },
         '100%': {
           opacity: '0',
+        },
+      },
+      rotateOne: {
+        from: {
+          transform: 'rotateX(35deg) rotateY(-45deg) rotateZ(0deg)',
+        },
+        to: {
+          transform: 'rotateX(35deg) rotateY(-45deg) rotateZ(360deg)',
+        },
+      },
+      rotateTwo: {
+        from: {
+          transform: 'rotateX(50deg) rotateY(10deg) rotateZ(0deg)',
+        },
+        to: {
+          transform: 'rotateX(50deg) rotateY(10deg) rotateZ(360deg)',
+        },
+      },
+      rotateThree: {
+        from: {
+          transform: 'rotateX(35deg) rotateY(55deg) rotateZ(0deg)',
+        },
+        to: {
+          transform: 'rotateX(35deg) rotateY(55deg) rotateZ(360deg)',
         },
       },
     },
