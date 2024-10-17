@@ -6,8 +6,9 @@ export const mode = 'jit';
 export const theme = {
   extend: {
     animation: {
-      typewriter: 'typewriter 2s steps(11) forwards',
-      caret: 'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s',
+      typewriter: 'typewriter 2s steps(11) forwards 5s',
+      caret:
+        'typewriter 2s steps(11) forwards 5s, blink 1s steps(11) infinite 2s',
       slider: 'slider 40s infinite linear',
       sliderReverse: 'sliderReverse 60s infinite linear',
       rotateOne: 'rotateOne 1s infinite linear',

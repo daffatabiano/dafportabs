@@ -36,6 +36,10 @@ function App() {
         <div className="relative z-0">
           <Contact />
         </div>
+        <div className="w-full bg-transparent text-amber-900 text-end pe-4 py-4 font-semibold">
+          Made with 🕸️ by Daffa Tabiano 2024. |{' '}
+          <span className="font-normal">All Rights Reserved</span>
+        </div>
         <MaskBackground />
       </div>
     </BrowserRouter>
