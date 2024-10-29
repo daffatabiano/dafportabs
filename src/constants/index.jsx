@@ -260,29 +260,29 @@ const projects = [
     source_code_link: 'https://github.com/daffatabiano/React_Project',
   },
   {
-    name: 'T - Ravel - V',
+    name: 'MERN Stack Developer',
     description:
-      'To Ravel Find Freedom a travel  websiter designed to makes it easier on traveling. The website also offering controlling features, for the Admin role. Provide CRUD Service for admin.',
+      '"Restaurant Management System A project built with MERN stack, created to streamline operations. The platform includes robust features for managing inventory, order processing, and customer interactions. Also, features CRUD capabilities for admin users.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'MongoDB',
         color: 'text-amber-100',
       },
       {
-        name: 'restapi',
+        name: 'Express',
         color: 'text-amber-600',
       },
       {
-        name: 'sass',
+        name: 'React',
         color: 'text-rose-600',
       },
       {
-        name: 'tailwindcss',
+        name: 'NodeJS',
         color: 'text-blue-600',
       },
     ],
     image: trv,
-    source_code_link: 'https://github.com/daffatabiano/trv',
+    source_code_link: 'https://github.com/daffatabiano/mernstack-clientside',
   },
   {
     name: "Coffee Terio's and Toast",
