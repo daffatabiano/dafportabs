@@ -262,7 +262,7 @@ const projects = [
   {
     name: 'MERN Stack Developer',
     description:
-      '"Restaurant Management System A project built with MERN stack, created to streamline operations. The platform includes robust features for managing inventory, order processing, and customer interactions. Also, features CRUD capabilities for admin users.',
+      '"Restaurant Management System A project built with MERN stack, created to streamline operations. The platform includes robust features for managing inventory, order processing, and customer interactions.',
     tags: [
       {
         name: 'MongoDB',
