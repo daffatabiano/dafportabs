@@ -43,7 +43,6 @@ import mongoose from './tech/mongoose.svg';
 import mysql from './tech/mysql.svg';
 import postman from './tech/postman.svg';
 import sequelize from './tech/sequelize.png';
-import vitejs from './tech/vitejs.svg';
 import vue from './tech/vue.png';
 
 import nusa from './company/nusa.png';
@@ -111,7 +110,6 @@ export {
   express,
   vue,
   sequelize,
-  vitejs,
   postman,
   linkedin,
   instagram,
