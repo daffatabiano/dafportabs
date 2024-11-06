@@ -1,5 +1,6 @@
 import {
   antdesign,
+  api,
   axios,
   backend,
   bootstrap,
@@ -12,6 +13,7 @@ import {
   css,
   dcrepes,
   dibimbing,
+  express,
   figma,
   firebase,
   git,
@@ -20,14 +22,19 @@ import {
   html,
   javascript,
   mobile,
+  mongodb,
+  mongoose,
+  mysql,
   nextjs,
   nodejs,
   nusa,
   office,
   pervite,
+  postman,
   reactjs,
   redux,
   scss,
+  sequelize,
   sociall,
   spark,
   tailwind,
@@ -37,6 +44,7 @@ import {
   tsParticles,
   typescript,
   vscode,
+  vue,
   web,
   wordpress,
 } from '../assets';
@@ -134,106 +142,172 @@ const technologies = [
   {
     name: 'HTML 5',
     icon: html,
+    divisi: 'Frontend',
   },
   {
     name: 'CSS 3',
     icon: css,
+    divisi: 'Frontend',
   },
   {
     name: 'JavaScript',
     icon: javascript,
+    divisi: 'Frontend',
   },
   {
     name: 'TypeScript',
     icon: typescript,
+    divisi: 'Frontend',
   },
   {
     name: 'React JS',
     icon: reactjs,
+    divisi: 'Frontend',
   },
   {
     name: 'Redux Toolkit',
     icon: redux,
+    divisi: 'Frontend',
   },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
+    divisi: 'Frontend',
   },
   {
     name: 'Node JS',
     icon: nodejs,
+    divisi: 'Backend',
   },
   {
     name: 'Next JS',
     icon: nextjs,
+    divisi: 'Frontend',
   },
   {
     name: 'Three JS',
     icon: threejs,
+    divisi: 'Frontend',
   },
   {
     name: 'git',
     icon: git,
+    divisi: 'others',
   },
   {
     name: 'figma',
     icon: figma,
+    divisi: 'Frontend',
   },
   {
     name: 'wordpress',
     icon: wordpress,
+    divisi: 'others',
   },
   {
     name: 'antdesign',
     icon: antdesign,
+    divisi: 'Frontend',
   },
   {
     name: 'scss',
     icon: scss,
+    divisi: 'Frontend',
   },
   {
     name: 'firebase',
     icon: firebase,
+    divisi: 'Backend',
   },
   {
     name: 'gitlab',
     icon: gitlab,
+    divisi: 'others',
   },
   {
     name: 'axios',
     icon: axios,
+    divisi: 'Backend',
   },
   {
     name: 'bootstrap',
     icon: bootstrap,
+    divisi: 'Frontend',
   },
   {
     name: 'canva',
     icon: canva,
+    divisi: 'Frontend',
   },
   {
     name: 'tsParticles',
     icon: tsParticles,
+    divisi: 'Frontend',
   },
   {
     name: 'office365',
     icon: office,
+    divisi: 'others',
   },
   {
     name: 'toastify',
     icon: toastify,
+    divisi: 'Frontend',
   },
   {
     name: 'github',
     icon: github2,
+    divisi: 'others',
   },
   {
     name: 'vscode',
     icon: vscode,
+    divisi: 'others',
   },
   {
     name: 'spark-ar',
     icon: spark,
+    divisi: 'others',
+  },
+  {
+    name: 'MongoDB',
+    icon: mongodb,
+    divisi: 'Backend',
+  },
+  {
+    name: 'Mongoose',
+    icon: mongoose,
+    divisi: 'Backend',
+  },
+  {
+    name: 'Express',
+    icon: express,
+    divisi: 'Backend',
+  },
+  {
+    name: 'REST API',
+    icon: api,
+    divisi: 'Backend',
+  },
+  {
+    name: 'Vue JS',
+    icon: vue,
+    divisi: 'Frontend',
+  },
+  {
+    name: 'MySQL',
+    icon: mysql,
+    divisi: 'Backend',
+  },
+  {
+    name: 'Sequelize',
+    icon: sequelize,
+    divisi: 'Backend',
+  },
+  {
+    name: 'Postman',
+    icon: postman,
+    divisi: 'others',
   },
 ];
 

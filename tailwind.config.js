@@ -14,6 +14,9 @@ export const theme = {
       rotateOne: 'rotateOne 1s infinite linear',
       rotateTwo: 'rotateTwo 1s infinite linear',
       rotateThree: 'rotateThree 1s infinite linear',
+      'scale-up-spin': 'scale-up-spin 0.5s ease-in-out',
+      'spin-scale-down': 'spin-scale-down 0.5s ease-in-out',
+      'scale-up-center': 'scale-up-center 0.5s ease-in-out',
     },
     keyframes: {
       slider: {
@@ -77,6 +80,18 @@ export const theme = {
         to: {
           transform: 'rotateX(35deg) rotateY(55deg) rotateZ(360deg)',
         },
+      },
+      'scale-up-spin': {
+        '0%': { transform: 'scale(0.5) rotate(0deg)' },
+        '100%': { transform: 'scale(1) rotate(360deg)' },
+      },
+      'spin-scale-down': {
+        '0%': { transform: 'scale(1) rotate(0deg)' },
+        '100%': { transform: 'scale(0.5) rotate(360deg)' },
+      },
+      'scale-up-center': {
+        '0%': { transform: 'scale(0.5)' },
+        '100%': { transform: 'scale(1)' },
       },
     },
     colors: {

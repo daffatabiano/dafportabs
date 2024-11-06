@@ -10,9 +10,23 @@ import Contact from './components/Contact';
 import MaskBackground from './components/particles/MaskBackground';
 import { useEffect, useState } from 'react';
 import { Loader } from './components/Loader';
+import ModalWrapper from './components/particles/ModalWrapper';
+import HelperButton from './components/particles/HelperButton';
+import ModalTechnologies from './components/particles/ModalTechnologies';
+import ModalSocialMedia from './components/particles/ModalSocialMedia';
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [showModal, setShowModal] = useState(false);
+  const [showModalSocialMedia, setShowModalSocialMedia] = useState(false);
+
+  const showModalHandler = () => {
+    setShowModal(true);
+  };
+
+  const showModalSocialMediaHandler = () => {
+    setShowModalSocialMedia(true);
+  };
 
   useEffect(() => {
     setTimeout(() => {
@@ -23,6 +37,19 @@ function App() {
   return (
     <BrowserRouter>
       {loading && <Loader />}
+      {showModal && (
+        <ModalTechnologies
+          isOpen={showModal}
+          onClose={() => setShowModal(false)}
+        />
+      )}
+      {showModalSocialMedia && (
+        <ModalSocialMedia
+          isOpen={showModalSocialMedia}
+          onClose={() => setShowModalSocialMedia(false)}
+        />
+      )}
+
       <div className="relative z-0 bg-white">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
@@ -30,7 +57,7 @@ function App() {
         </div>
         <About />
         <Experience />
-        <Tech />
+        <Tech handleClick={showModalHandler} />
         <Project />
         <Certificate />
         <div className="relative z-0">
@@ -41,6 +68,10 @@ function App() {
           <span className="font-normal">All Rights Reserved</span>
         </div>
         <MaskBackground />
+        <HelperButton
+          onClick={showModalHandler}
+          onClickSocmed={showModalSocialMediaHandler}
+        />
       </div>
     </BrowserRouter>
   );

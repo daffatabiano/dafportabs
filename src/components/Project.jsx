@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="from-zinc-400 via-zinc-100 to-zinc-600 bg-gradient-to-r p-5 rounded-2xl sm:w-[360px] w-full">
+        className="from-zinc-400 via-zinc-100 to-zinc-600 bg-gradient-to-r  p-5 rounded-2xl sm:w-[360px] w-full">
         <div className="relative w-full h-[230px]">
           <img
             src={image}

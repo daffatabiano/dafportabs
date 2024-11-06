@@ -7,6 +7,8 @@ import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
 import checklist from './checklist.svg';
+import linkedin from './linkedin.svg';
+import instagram from './instagram.png';
 
 import css from './tech/css.png';
 import figma from './tech/figma.png';
@@ -34,6 +36,15 @@ import tsParticles from './tech/tsParticles.png';
 import vscode from './tech/vscode.svg';
 import spark from './tech/spark.png';
 import github2 from './tech/github2.svg';
+import api from './tech/api.svg';
+import express from './tech/express.svg';
+import mongodb from './tech/mongodb.svg';
+import mongoose from './tech/mongoose.svg';
+import mysql from './tech/mysql.svg';
+import postman from './tech/postman.svg';
+import sequelize from './tech/sequelize.png';
+import vitejs from './tech/vitejs.svg';
+import vue from './tech/vue.png';
 
 import nusa from './company/nusa.png';
 import pervite from './company/pervite.png';
@@ -91,6 +102,17 @@ export {
   axios,
   canva,
   bootstrap,
+  api,
+  mongoose,
+  mongodb,
+  mysql,
+  express,
+  vue,
+  sequelize,
+  vitejs,
+  postman,
+  linkedin,
+  instagram,
   cert_dibimbing,
   cert_freecodecamp,
   cert_nusatech,
