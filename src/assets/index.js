@@ -54,6 +54,7 @@ import dibimbing from './company/dibimbing.png';
 import sociall from './sociall.png';
 import trv from './trv.png';
 import coffee from './coffe.png';
+import dashboards from './dashboard-management.png';
 
 import cert_dibimbing from './cert/cert_dibimbing.png';
 import cert_freecodecamp from './cert/cert_freecodecamp.jpg';
@@ -92,6 +93,7 @@ export {
   dibimbing,
   sociall,
   trv,
+  dashboards,
   coffee,
   nextjs,
   wordpress,

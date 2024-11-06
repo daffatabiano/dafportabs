@@ -11,6 +11,7 @@ import {
   coffee,
   creator,
   css,
+  dashboards,
   dcrepes,
   dibimbing,
   express,
@@ -359,9 +360,9 @@ const projects = [
     source_code_link: 'https://github.com/daffatabiano/mernstack-clientside',
   },
   {
-    name: "Coffee Terio's and Toast",
+    name: 'Management System',
     description:
-      'Easy and fast online coffee ordering application. Order a variety of coffee choices, from classic espresso to our special menu, straight from your phone. Choose the appropriate payment method .',
+      'Efficient and robust dashboard management system. Handle all CRUD operations seamlessly with cutting-edge MEVN stack technology, crafted in just 3 days. Secure protected routes ensure only auth users.',
     tags: [
       {
         name: 'nextjs',
@@ -380,8 +381,9 @@ const projects = [
         color: 'text-blue-600',
       },
     ],
-    image: coffee,
-    source_code_link: 'https://github.com/daffatabiano/NextTeriosCoffee',
+    image: dashboards,
+    source_code_link:
+      'https://github.com/daffatabiano/Rimba-Ananta-Vikasa-Indonesia',
   },
 ];
 
