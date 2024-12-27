@@ -49,6 +49,7 @@ import nusa from './company/nusa.png';
 import pervite from './company/pervite.png';
 import dcrepes from './company/dcrepes.png';
 import dibimbing from './company/dibimbing.png';
+import loan from './company/loan-market-logo.jpg';
 
 import sociall from './sociall.png';
 import trv from './trv.png';
@@ -90,6 +91,7 @@ export {
   pervite,
   dcrepes,
   dibimbing,
+  loan,
   sociall,
   trv,
   dashboards,
