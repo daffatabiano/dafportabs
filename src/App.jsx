@@ -63,7 +63,7 @@ function App() {
         <div className="relative z-0">
           <Contact />
         </div>
-        <div className="w-full bg-transparent text-amber-900 text-end pe-4 py-4 font-semibold">
+        <div className="bg-transparent text-amber-900 text-start md:text-center text-[10px] md:w-full w-3/4 md:text-lg ps-6 pb-6 md:py-4 md:ps-0 font-semibold">
           Made with 🕸️ by Daffa Tabiano 2024. |{' '}
           <span className="font-normal">All Rights Reserved</span>
         </div>
