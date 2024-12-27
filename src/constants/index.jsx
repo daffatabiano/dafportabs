@@ -22,6 +22,7 @@ import {
   gitlab,
   html,
   javascript,
+  loan,
   mobile,
   mongodb,
   mongoose,
@@ -135,6 +136,19 @@ const experiences = [
       'Improving user experience (UX) with responsive and interactive design.',
       'Collaborate with the Backend Team to ensure integration runs smoothly between the Frontend and Backend.',
       'Debugging and Testing to ensure the app goes well/ Daily reporting and koordinate with team above what im going everyday.',
+    ],
+  },
+  {
+    title: 'Frontend Developer',
+    company_name: 'Loan Market Indonesia',
+    icon: loan,
+    iconBg: '#fbbf24',
+    date: 'Dec 2024 - Present',
+    points: [
+      'Create and enhance web application user interfaces using HTML, CSS, and JavaScript, ensuring functional and visually appealing designs.',
+      'Build responsive and cross-browser compatible applications that perform seamlessly on various devices and platforms.',
+      'Work closely with design teams to translate visual designs into functional front-end code and collaborate with back-end teams to integrate APIs and services.',
+      'Apply best practices for web development, including security and accessibility standards, while staying informed about the latest front-end technologies and trends.',
     ],
   },
 ];
